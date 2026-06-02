@@ -40,88 +40,88 @@ export const navMenu: NavItem[] = [
   {
     label: "What We Do",
     href: "/what-we-do",
-    children: [
-      { label: "Global Presence", href: "/what-we-do/global-presence" },
-      {
-        label: "National Distribution Setup",
-        href: "/what-we-do/national-distribution-setup",
-      },
-      { label: "Our Journey", href: "/what-we-do/our-journey" },
-      {
-        label: "Marketing Portfolio",
-        href: "/what-we-do/marketing-portfolio",
-      },
-      { label: "Products", href: "/products" },
-    ],
+    // children: [
+    //   { label: "Global Presence", href: "/what-we-do/global-presence" },
+    //   {
+    //     label: "National Distribution Setup",
+    //     href: "/what-we-do/national-distribution-setup",
+    //   },
+    //   { label: "Our Journey", href: "/what-we-do/our-journey" },
+    //   {
+    //     label: "Marketing Portfolio",
+    //     href: "/what-we-do/marketing-portfolio",
+    //   },
+    //   { label: "Products", href: "/products" },
+    // ],
   },
   {
     label: "Who We Are",
     href: "/who-we-are",
-    children: [
-      { label: "CEO Message", href: "/who-we-are/ceo-message" },
-      {
-        label: "Mission, Vision & Values",
-        href: "/who-we-are/mission-vision-values",
-      },
-      { label: "Corporate Profile", href: "/who-we-are/corporate-profile" },
-    ],
+    // children: [
+    //   { label: "CEO Message", href: "/who-we-are/ceo-message" },
+    //   {
+    //     label: "Mission, Vision & Values",
+    //     href: "/who-we-are/mission-vision-values",
+    //   },
+    //   { label: "Corporate Profile", href: "/who-we-are/corporate-profile" },
+    // ],
   },
   {
     label: "CSR",
     href: "/csr",
-    children: [
-      { label: "Research Forum", href: "/csr/research-forum" },
-      { label: "Social Activities", href: "/csr/social-activities" },
-      { label: "Training Camps", href: "/csr/training-camps" },
-      { label: "Medical Camp", href: "/csr/medical-camp" },
-    ],
+    // children: [
+    //   { label: "Research Forum", href: "/csr/research-forum" },
+    //   { label: "Social Activities", href: "/csr/social-activities" },
+    //   { label: "Training Camps", href: "/csr/training-camps" },
+    //   { label: "Medical Camp", href: "/csr/medical-camp" },
+    // ],
   },
   {
     label: "News & Media",
     href: "/news-media",
-    children: [
-      { label: "Social Media", href: "/news-media/social-media" },
-      { label: "Our Culture", href: "/news-media/our-culture" },
-      { label: "Learn With Us", href: "/news-media/learn-with-us" },
-    ],
+    // children: [
+    //   { label: "Social Media", href: "/news-media/social-media" },
+    //   { label: "Our Culture", href: "/news-media/our-culture" },
+    //   { label: "Learn With Us", href: "/news-media/learn-with-us" },
+    // ],
   },
   {
     label: "Manufacturing Facilities",
     href: "/manufacturing-facilities",
-    children: [
-      {
-        label: "Main Plant",
-        href: "/manufacturing-facilities/main-plant",
-      },
-      {
-        label: "Cephalosporin Plant",
-        href: "/manufacturing-facilities/cephalosporin-plant",
-      },
-      {
-        label: "Quality Control",
-        href: "/manufacturing-facilities/quality-control",
-      },
-      {
-        label: "Quality Assurance",
-        href: "/manufacturing-facilities/quality-assurance",
-      },
-      {
-        label: "Research & Development",
-        href: "/manufacturing-facilities/research-development",
-      },
-    ],
+    // children: [
+    //   {
+    //     label: "Main Plant",
+    //     href: "/manufacturing-facilities/main-plant",
+    //   },
+    //   {
+    //     label: "Cephalosporin Plant",
+    //     href: "/manufacturing-facilities/cephalosporin-plant",
+    //   },
+    //   {
+    //     label: "Quality Control",
+    //     href: "/manufacturing-facilities/quality-control",
+    //   },
+    //   {
+    //     label: "Quality Assurance",
+    //     href: "/manufacturing-facilities/quality-assurance",
+    //   },
+    //   {
+    //     label: "Research & Development",
+    //     href: "/manufacturing-facilities/research-development",
+    //   },
+    // ],
   },
   {
     label: "Drug Safety",
     href: "/drug-safety",
-    children: [
-      { label: "Pharmacovigilance", href: "/drug-safety/pharmacovigilance" },
-      {
-        label: "Product & Business Development",
-        href: "/drug-safety/product-business-development",
-      },
-      { label: "Clinical Research", href: "/drug-safety/clinical-research" },
-    ],
+    // children: [
+    //   { label: "Pharmacovigilance", href: "/drug-safety/pharmacovigilance" },
+    //   {
+    //     label: "Product & Business Development",
+    //     href: "/drug-safety/product-business-development",
+    //   },
+    //   { label: "Clinical Research", href: "/drug-safety/clinical-research" },
+    // ],
   },
   { label: "Career", href: "/career" },
   { label: "Contact Us", href: "/contact" },
