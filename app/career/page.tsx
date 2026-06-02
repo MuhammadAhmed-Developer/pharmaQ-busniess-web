@@ -147,7 +147,7 @@ export default function CareerPage() {
       </section>
 
       {/* Open Positions */}
-      <section className="py-16 md:py-24">
+      {/* <section className="py-16 md:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900 mb-12">
             Open Positions
@@ -173,7 +173,7 @@ export default function CareerPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 md:py-24 text-white">

@@ -8,11 +8,11 @@ export function HeroSection() {
     <section>
       <CommonHero
         eyebrow="Trusted Healthcare Partner"
-        title="PhraramQ: Delivering Reliable Pharmaceutical Value"
-        subtitle="We build dependable product pipelines, practical distribution systems, and quality-focused business operations for modern healthcare markets."
+        title="Committed to Better Health"
+        subtitle="PHARMA Q PHARMACEUTICALS (SMC-PRIVATE) LIMITED, PAKISTAN."
         backgroundImage="/Hero%20img/hero1.png"
       />
-      <div className="mx-auto mt-6 w-full max-w-6xl px-4 sm:px-6 lg:px-8">
+      {/* <div className="mx-auto mt-6 w-full max-w-6xl px-4 sm:px-6 lg:px-8">
         <Reveal>
           <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-xl">
             <div className="flex flex-wrap gap-3">
@@ -41,7 +41,7 @@ export function HeroSection() {
             </div>
           </Reveal>
         ))}
-      </div>
+      </div> */}
     </section>
   );
 }

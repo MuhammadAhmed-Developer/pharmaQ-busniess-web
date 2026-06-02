@@ -35,9 +35,9 @@ export function ProductGrid({
                   height={420}
                   className="h-52 w-full object-cover transition duration-500 group-hover:scale-105"
                 />
-                <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-slate-700">
+                {/* <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-slate-700">
                   {product.category}
-                </span>
+                </span> */}
               </div>
               <div className="flex h-[calc(100%-13rem)] flex-col p-6">
                 <h3 className="text-xl font-semibold text-slate-900">
