@@ -3,7 +3,7 @@ import type { Product } from "@/data/products";
 
 type JsonLd = Record<string, unknown>;
 
-export const defaultOgImage = `${SITE_URL}/famousprodutctimage.jpeg`;
+export const defaultOgImage = `${SITE_URL}/hero.jpeg`;
 
 export function websiteJsonLd(): JsonLd {
   return {
