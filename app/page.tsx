@@ -23,9 +23,9 @@ export default function HomePage() {
     <>
       <JsonLd data={[organizationJsonLd(), websiteJsonLd(), faqJsonLd(faqs)]} />
       <HeroSection />
+      <ProductGrid products={products} />
       <AboutSection />
       {/* <CapabilitiesSection /> */}
-      <ProductGrid products={products} />
       {/* <FaqSection /> */}
       <CTASection />
     </>
