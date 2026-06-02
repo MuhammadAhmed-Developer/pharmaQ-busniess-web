@@ -8,7 +8,7 @@ export function AboutSection() {
       <Reveal>
         <div className="relative isolate overflow-hidden min-h-130 sm:min-h-145">
           <Image
-            src="/brandimg.jpeg"
+            src="/webg.jpeg"
             alt="Pharmaceutical brand operations"
             fill
             sizes="100vw"

@@ -1,9 +1,10 @@
 "use client";
 
 import { FaWhatsapp } from "react-icons/fa";
+import { companyInfo } from "@/data/site";
 
 export function FloatingWhatsApp() {
-  const phoneNumber = "+923000000000"; // Replace with actual number
+  const phoneNumber = companyInfo.phone; // Use the phone number from companyInfo
   const message = "Hello PhraramQ! I'd like to inquire about your products.";
 
   const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, "")}?text=${encodeURIComponent(message)}`;

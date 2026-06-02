@@ -64,8 +64,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Injectable",
     packaging: "5 ampoules pack",
-    image: "/products/product11.jpeg",
-    detailImage: "/products/product12.jpeg",
+    image: "/products/product13.jpeg",
+    detailImage: "/products/product13.jpeg",
   },
   {
     id: "p1",
