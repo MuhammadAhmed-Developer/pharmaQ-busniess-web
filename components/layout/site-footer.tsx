@@ -85,12 +85,12 @@ export function SiteFooter() {
                 <div>
                   <p className="text-xs text-slate-500 uppercase">WhatsApp</p>
                   <Link
-                    href={`https://wa.me/${companyInfo.phone.replace(/\D/g, "")}`}
+                    href={`https://wa.me/${companyInfo.whatsapp.replace(/\D/g, "")}`}
                     className="text-sm text-slate-300 hover:text-white"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {companyInfo.phone}
+                    {companyInfo.whatsapp}
                   </Link>
                 </div>
               </div>

@@ -14,7 +14,7 @@ export function AboutSection() {
             sizes="100vw"
             className="object-cover"
           />
-          <div className="absolute inset-0 bg-[linear-gradient(108deg,rgba(7,16,34,0.92)_0%,rgba(7,16,34,0.78)_42%,rgba(7,16,34,0.45)_100%)]" />
+          <div className="absolute inset-0 bg-black/90" />
 
           <div className="relative z-10 mx-auto flex h-full w-full max-w-6xl items-center justify-center px-4 py-10 sm:px-6 sm:py-14 lg:px-8 lg:py-16">
             <div className="mx-auto max-w-5xl text-center text-white">

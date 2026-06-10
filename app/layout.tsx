@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: defaultOgImage,
+        url: "/hero4.png",
         width: 1200,
         height: 630,
         alt: "PhraramQ pharmaceuticals",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PhraramQ | Pharmaceutical Business",
     description: companyInfo.shortDescription,
-    images: [defaultOgImage],
+    images: ["/hero4.png"],
   },
   robots: {
     index: true,

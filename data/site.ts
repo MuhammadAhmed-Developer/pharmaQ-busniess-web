@@ -1,4 +1,4 @@
-export const SITE_URL = "https://phramarq.com";
+export const SITE_URL = "https://pharmaq-rho.vercel.app";
 
 export const companyInfo = {
   name: "PhraramQ",
@@ -9,6 +9,7 @@ export const companyInfo = {
     "PhraramQ is a distinguished pharmaceutical organization dedicated to the advancement of healthcare through the development, manufacturing, and distribution of high-quality pharmaceutical products. Established with a commitment to scientific excellence and ethical business practices, the company strives to address evolving healthcare needs by providing safe, effective, and innovative therapeutic solutions. Our operations are guided by the highest standards of quality assurance, regulatory compliance, and continuous improvement. Through strategic investment in research and development, advanced manufacturing technologies, and a highly skilled workforce, we endeavor to deliver products that meet international standards and contribute to improved patient outcomes. At PhraramQ, patient well-being remains at the core of our mission. We are committed to fostering long-term partnerships with healthcare professionals, institutions, and stakeholders while maintaining an unwavering focus on integrity, innovation, and operational excellence. As we continue to expand our presence, our vision is to become a trusted leader in the pharmaceutical industry, recognized for delivering exceptional value to patients, healthcare providers, and society at large.",
   email: "pharmaq.pharmaceuticals@gmail.com",
   phone: "+92-326-0000411",
+  whatsapp: "+92-300-7494999",
   address: "Suite 204, Health Tower, Karachi, Pakistan",
   social: {
     linkedin: "https://www.linkedin.com",
