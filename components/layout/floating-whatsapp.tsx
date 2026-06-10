@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { companyInfo } from "@/data/site";
 
 export function FloatingWhatsApp() {
-  const phoneNumber = companyInfo.phone; // Use the phone number from companyInfo
+  const phoneNumber = companyInfo.whatsapp; // Use the WhatsApp number from companyInfo
   const message = "Hello PhraramQ! I'd like to inquire about your products.";
 
   const whatsappUrl = `https://wa.me/${phoneNumber.replace(/\D/g, "")}?text=${encodeURIComponent(message)}`;
