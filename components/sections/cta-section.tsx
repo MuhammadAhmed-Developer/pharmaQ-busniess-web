@@ -22,10 +22,9 @@ export function CTASection() {
               </h2>
 
               <p className="mt-4 max-w-2xl text-base leading-7 text-slate-700">
-                Need medicines or healthcare products delivered to your home?
                 Contact our team by call or WhatsApp and share your
-                requirements. We will guide you with product availability,
-                delivery timelines, and order support.
+                prescription. We will guide you with product availability,
+                delivery timelines.
               </p>
 
               <div className="mt-8 flex flex-col gap-3 sm:flex-row">

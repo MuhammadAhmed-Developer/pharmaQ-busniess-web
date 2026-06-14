@@ -39,9 +39,9 @@ export function HeroSection() {
 
                 {/* Line 2 - Main Heading */}
                 <h1 className="mt-2 text-lg font-extrabold leading-snug text-white sm:text-xl lg:text-3xl">
-                  PHARMACEUTICALS (SMC-PRIVATE)
+                  PHARMACEUTICALS
                   <br />
-                  LIMITED, PAKISTAN.
+                  (SMC-PRIVATE) LIMITED, PAKISTAN.
                 </h1>
 
                 {/* Line 3 - Tagline in accent color */}
