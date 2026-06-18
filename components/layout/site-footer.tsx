@@ -139,12 +139,12 @@ export function SiteFooter() {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-slate-800 mt-8 pt-6 flex flex-col items-center justify-between gap-4 sm:flex-row">
-          <p className="text-xs text-slate-500">
+        <div className="border-t border-slate-800 mt-8 pt-6 flex flex-col items-center justify-center gap-4 sm:flex-row">
+          <p className="text-xs text-slate-50 text-center">
             © {new Date().getFullYear()} {companyInfo.legalName}. All rights
             reserved.
           </p>
-          <div className="flex gap-4 text-slate-400">
+          {/* <div className="flex gap-4 text-slate-400">
             <Link
               href={companyInfo.social.linkedin}
               target="_blank"
@@ -172,7 +172,7 @@ export function SiteFooter() {
               <span className="sr-only">Instagram</span>
               <FaInstagram className="h-5 w-5" aria-hidden="true" />
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

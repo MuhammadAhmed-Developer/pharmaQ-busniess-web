@@ -178,12 +178,17 @@ export default function CareerPage() {
       {/* CTA */}
       <section className="bg-gradient-to-r from-blue-600 to-blue-800 py-16 md:py-24 text-white">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold">Ready to Make an Impact&quest;</h2>
+          <h2 className="text-3xl font-bold">Ready to Make an Impact</h2>
           <p className="mt-4 text-lg text-blue-100">
             Submit your CV and let&apos;s discuss how you can grow with PhraramQ
           </p>
-          <Link href="/contact">
-            <button className="mt-8 inline-flex items-center rounded-lg bg-white px-8 py-3 text-blue-600 font-bold hover:bg-blue-50 transition">
+          <Link
+            href="https://docs.google.com/forms/d/e/1FAIpQLScD0M_22bNRPzmW0GaGXio5SZ-JsNwlgUsjOQO_1gSqGksI9w/viewform?usp=publish-editor"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+          >
+            <button className="mt-8 inline-flex cursor-pointer items-center rounded-lg bg-white px-8 py-3 text-blue-600 font-bold hover:bg-blue-50 transition">
               Apply Now
               <svg
                 className="ml-2 h-5 w-5"
