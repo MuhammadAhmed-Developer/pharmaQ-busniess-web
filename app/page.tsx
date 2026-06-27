@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  const products = getAllProducts().slice(0, 6);
+  const products = getAllProducts();
 
   return (
     <>
