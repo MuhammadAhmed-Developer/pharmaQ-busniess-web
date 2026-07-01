@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: "p7",
     slug: "pycoxal-tablets",
-    name: "Pycoxal",
+    name: "Empagliflozin+Linagliptin",
     category: "Neurology",
     shortDescription: "Mecobalamin and L-methyl folate nerve support tablets.",
     description:
@@ -174,5 +174,23 @@ export const products: Product[] = [
     packaging: "Blister pack",
     image: "/products/product9.jpeg",
     detailImage: "/products/product9.jpeg",
+  },
+  {
+    id: "p10",
+    slug: "welmalt-100mg",
+    name: "Welmalt 100mg",
+    category: "Hematology",
+    shortDescription: "Iron Polymaltose Complex 100mg iron supplement tablets.",
+    description:
+      "Welmalt (Iron Polymaltose Complex) 100mg provides elemental iron for the treatment and prevention of iron deficiency under physician supervision. Manufactured by Welmark Pharmaceuticals.",
+    indications: [
+      "Iron deficiency anemia",
+      "Iron deficiency prevention",
+      "Anemia support therapy",
+    ],
+    dosageForm: "Oral Tablet",
+    packaging: "1 x 10 tablets",
+    image: "/products/product10.jpeg",
+    detailImage: "/products/product10.jpeg",
   },
 ];
