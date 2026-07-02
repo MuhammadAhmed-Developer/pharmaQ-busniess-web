@@ -90,7 +90,7 @@ export const products: Product[] = [
     slug: "emplon-10-5mg",
     name: "Emplon 10/5mg",
     category: "Cardiology",
-    shortDescription: "Amlodipine and olmesartan combination tablets.",
+    shortDescription: "Empagliflozin+Linagliptin combination tablets.",
     description:
       "Emplon 10/5mg combines amlodipine and olmesartan for effective blood pressure control in patients requiring dual antihypertensive therapy.",
     indications: [
@@ -124,7 +124,7 @@ export const products: Product[] = [
   {
     id: "p7",
     slug: "pycoxal-tablets",
-    name: "Empagliflozin+Linagliptin",
+    name: "Pycoxal Tablets",
     category: "Neurology",
     shortDescription: "Mecobalamin and L-methyl folate nerve support tablets.",
     description:
