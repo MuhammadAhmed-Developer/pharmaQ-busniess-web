@@ -64,8 +64,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "3 x 10 tablets",
-    image: "/products/product3.jpeg",
-    detailImage: "/products/product3.jpeg",
+    image: "/products/product31.jpeg",
+    detailImage: "/products/product31.jpeg",
   },
   {
     id: "p4",
