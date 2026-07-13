@@ -28,8 +28,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "10 tablets",
-    image: "/products/product1.jpeg",
-    detailImage: "/products/product1.jpeg",
+    image: "/prod/product1.jpeg",
+    detailImage: "/prod/product1.jpeg",
   },
   {
     id: "p2",
@@ -46,8 +46,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "10 tablets",
-    image: "/products/product2.jpeg",
-    detailImage: "/products/product2.jpeg",
+    image: "/prod/product2.jpeg",
+    detailImage: "/prod/product2.jpeg",
   },
   {
     id: "p3",
@@ -64,8 +64,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "3 x 10 tablets",
-    image: "/products/product3.jpeg",
-    detailImage: "/products/product3.jpeg",
+    image: "/prod/product3.jpeg",
+    detailImage: "/prod/product3.jpeg",
   },
   {
     id: "p4",
@@ -82,8 +82,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "3 x 10 tablets",
-    image: "/products/product4.jpeg",
-    detailImage: "/products/product4.jpeg",
+    image: "/prod/product4.jpeg",
+    detailImage: "/prod/product4.jpeg",
   },
   {
     id: "p5",
@@ -92,7 +92,7 @@ export const products: Product[] = [
     category: "Cardiology",
     shortDescription: "Empagliflozin+Linagliptin combination tablets.",
     description:
-      "Emplon 10/5mg tablets are marketed by Pharma Q Pharmaceutical (Pvt) Ltd for physician-directed cardiovascular therapy.",
+      "Emplon 10/5mg tablets are marketed by Pharma Q Pharmaceutical (Pvt) Ltd for physician-directed therapy.",
     indications: [
       "Hypertension",
       "Blood pressure management",
@@ -100,8 +100,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "10/5mg blister pack",
-    image: "/products/product5.jpeg",
-    detailImage: "/products/product5.jpeg",
+    image: "/prod/product5.jpeg",
+    detailImage: "/prod/product5.jpeg",
   },
   {
     id: "p6",
@@ -110,7 +110,7 @@ export const products: Product[] = [
     category: "Cardiology",
     shortDescription: "Emplon 10/5mg tablets by Welmark Pharmaceuticals.",
     description:
-      "Emplon 10/5mg tablets manufactured by Welmark Pharmaceuticals for physician-directed cardiovascular therapy.",
+      "Emplon 10/5mg tablets manufactured by Welmark Pharmaceuticals for physician-directed therapy.",
     indications: [
       "Hypertension",
       "Blood pressure management",
@@ -118,8 +118,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "10/5mg blister pack",
-    image: "/products/product6.jpeg",
-    detailImage: "/products/product6.jpeg",
+    image: "/prod/product6.jpeg",
+    detailImage: "/prod/product6.jpeg",
   },
   {
     id: "p7",
@@ -129,7 +129,7 @@ export const products: Product[] = [
     shortDescription:
       "Mecobalamin + L Methyl Folate tablets for nerve support.",
     description:
-      "Pycoxal combines mecobalamin (2mg), pyridoxal-5-phosphate (35mg), and L-methyl folate (1000mcg) to support peripheral and diabetic neuropathy care pathways.",
+      "Pycoxal combines mecobalamin and L-methyl folate to support peripheral and diabetic neuropathy care pathways.",
     indications: [
       "Alzheimer's disease support",
       "Peripheral neuropathy",
@@ -137,8 +137,8 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "30 tablets",
-    image: "/products/product7.jpeg",
-    detailImage: "/products/product7.jpeg",
+    image: "/prod/product7.jpeg",
+    detailImage: "/prod/product7.jpeg",
   },
   {
     id: "p8",
@@ -148,7 +148,7 @@ export const products: Product[] = [
     shortDescription:
       "Red algae calcium with vitamins D3, K2, and essential minerals.",
     description:
-      "Bonate-D provides red algae calcium (1000mg) with vitamins D3, K2, C, and essential minerals to support bone strength, heart health, and overall vitality.",
+      "Bonate-D provides red algae calcium with vitamins D3, K2, C, and essential minerals to support bone strength, heart health, and overall vitality.",
     indications: [
       "Bone strength support",
       "Heart health support",
@@ -156,26 +156,26 @@ export const products: Product[] = [
     ],
     dosageForm: "Oral Tablet",
     packaging: "20 tablets",
-    image: "/products/product8.jpeg",
-    detailImage: "/products/product8.jpeg",
+    image: "/prod/product8.jpeg",
+    detailImage: "/prod/product8.jpeg",
   },
   {
     id: "p9",
     slug: "brince-40mg",
     name: "Brince 40mg",
-    category: "Cardiology",
-    shortDescription: "Brince 40mg tablets for hypertension management.",
+    category: "Gastroenterology",
+    shortDescription: "Esomeprazole 40mg tablets for acid-related disorders.",
     description:
-      "Brince 40mg tablets are manufactured by Welmark Pharmaceuticals for Pharma Q and used in blood pressure management under physician-directed care.",
+      "Brince (Esomeprazole) 40mg tablets are manufactured by Welmark Pharmaceuticals for Pharma Q and used in acid-related gastrointestinal care under physician supervision.",
     indications: [
-      "Hypertension",
-      "Blood pressure management",
-      "Cardiovascular protection",
+      "Acid reflux management",
+      "GERD support",
+      "Gastric acid control",
     ],
     dosageForm: "Oral Tablet",
     packaging: "40mg blister pack",
-    image: "/products/product9.jpeg",
-    detailImage: "/products/product9.jpeg",
+    image: "/prod/product9.jpeg",
+    detailImage: "/prod/product9.jpeg",
   },
   {
     id: "p10",
@@ -184,15 +184,15 @@ export const products: Product[] = [
     category: "Hematology",
     shortDescription: "Iron Polymaltose Complex 100mg iron supplement tablets.",
     description:
-      "Welmalt (Iron Polymaltose Complex) 100mg provides elemental iron for the treatment and prevention of iron deficiency under physician supervision. Manufactured by Welmark Pharmaceuticals.",
+      "Welmalt (Iron Polymaltose Complex) 100mg provides elemental iron for the treatment and prevention of iron deficiency under physician supervision.",
     indications: [
       "Iron deficiency anemia",
       "Iron deficiency prevention",
       "Anemia support therapy",
     ],
     dosageForm: "Oral Tablet",
-    packaging: "1 x 10 tablets",
-    image: "/products/product10.jpeg",
-    detailImage: "/products/product10.jpeg",
+    packaging: "2 x 10 tablets",
+    image: "/prod/product10.jpeg",
+    detailImage: "/prod/product10.jpeg",
   },
 ];

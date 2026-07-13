@@ -10,7 +10,7 @@ import {
   getProductBySlug,
   getRelatedProducts,
 } from "@/lib/products";
-import { breadcrumbJsonLd, defaultOgImage, productJsonLd } from "@/lib/seo";
+import { breadcrumbJsonLd, productJsonLd } from "@/lib/seo";
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
@@ -53,7 +53,7 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: product.name,
       description: product.shortDescription,
-      images: [product.image || defaultOgImage],
+      images: [product.image],
     },
   };
 }
@@ -87,7 +87,8 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           alt={product.name}
           width={920}
           height={740}
-          className="w-full rounded-3xl border border-slate-200 object-cover shadow-lg"
+          unoptimized
+          className="w-full rounded-3xl border border-slate-200 bg-white object-contain p-4 shadow-lg"
         />
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-amber-700">

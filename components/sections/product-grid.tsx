@@ -33,6 +33,7 @@ export function ProductGrid({
                   alt={product.name}
                   width={600}
                   height={420}
+                  unoptimized
                   className="h-52 w-full bg-white object-contain p-2 transition duration-500 group-hover:scale-105"
                 />
                 {/* <span className="absolute left-4 top-4 rounded-full bg-white/90 px-3 py-1 text-xs font-semibold text-slate-700">
